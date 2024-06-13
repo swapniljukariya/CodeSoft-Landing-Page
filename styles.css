@@ -1,0 +1,104 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.header{
+    display: flex;
+    border-bottom: 1px solid gray;
+    height: 1vh;
+    color: brown;
+    padding: 1.5em;
+    align-items: center;
+    
+    
+}
+.header h1{
+    font-size: 1.6em;
+}
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    gap: 6rem;
+    width: 40vw;
+    margin-left: 25vw;
+}
+#about-section{
+    margin-top: 5em;
+
+}
+.about-section{
+    display: flex;
+    align-items: center;
+
+}
+.service-section{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    color: brown;
+    margin: 4em;
+}
+.intro-section{
+    display: flex;
+    align-items: center;
+    gap:15em;
+    margin-top: 4em;
+    color: orange;margin: 5em;
+    height: 26vh;
+}
+.about-section{
+    margin :3em;
+    display: flex;
+    align-items: center;
+    gap:10em;
+
+}
+.contact-section{
+    display: flex;
+    align-items: center;
+    margin: 9em;
+    width: 100w;
+   
+    justify-content: center;
+    
+    gap: 25em;
+    margin: 6em
+}
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid gray;
+    flex-direction: column;
+    height: 40vh;
+    width: 30vw;
+    gap: 2em;
+    color: brown;
+    background-color: orange;
+    margin-right: 2em;
+    
+
+}
+footer{
+    background-color: black;
+    color: white;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.title{
+    text-align: center;
+    color: orange;
+    margin-top: 3em;
+}
+input{
+    height: 4vh;
+    width: 20vw;
+}
+.pic{
+    height: 42vh;
+    margin-top: 4em;
+}
